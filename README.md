@@ -4,7 +4,7 @@ The Web app where you can find the perfect roommate, connect to then and message
 	git clone git@github.com:mohit-40/FindRoomies.git
 2) install the npm module. \
 	npm i 
-3) run in development mode. \
+3) To run in development mode. \
 	npm start 
 
 
