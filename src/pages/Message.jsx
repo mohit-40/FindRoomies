@@ -2,13 +2,13 @@ import React from 'react'
 import {LogMenuItems} from "../component/LogMenuItems"
 import Footer from "../component/Footer"
 import Navbar from "../component/Navbar"
-import Section from "../component/messengerComponent/Section"
+import Chat from "../component/messengerComponent/Chat"
 
 function Message() {
 	return (
 		<>
 			<Navbar menuItem={LogMenuItems} log={false} />
-			<Section />
+			<Chat />
 			<Footer />
 		</>
 	)

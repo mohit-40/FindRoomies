@@ -4,6 +4,7 @@ import Footer from "../component/Footer"
 import Navbar from "../component/Navbar"
 import User from "../component/User"
 
+
 function Profile() {
 	return (
 		<>
@@ -15,3 +16,4 @@ function Profile() {
 }
 
 export default Profile
+

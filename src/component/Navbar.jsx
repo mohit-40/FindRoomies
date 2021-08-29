@@ -4,13 +4,22 @@ import Button from './Button';
 import NavItem from "./NavItem"
 import './Navbar.css';
 
+let username="yashwant";
+
 
 function Navbar(props) {
 	const [click, setClick] = useState(false);
 	const [button, setButton] = useState(true);
 
+	const sendUser=(props)=>{
+		// if(props.item.title==="Message"){username=prompt("Enter your Username:");}
+		username=prompt("Enter your Username:");
+	}
 	const handleClick = () => setClick(!click);
-	const closeMobileMenu = () => setClick(false);
+	const closeMobileMenu = (props) => {
+		sendUser(props);
+		setClick(false);
+	}
 
 	const showButton = () => {
 		if (window.innerWidth <= 960) { setButton(false); } 
@@ -37,3 +46,4 @@ function Navbar(props) {
 }
 
 export default Navbar;
+export {username};

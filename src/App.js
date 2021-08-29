@@ -12,20 +12,22 @@ import Favourite from "./pages/Favourite"
 import Message from "./pages/Message"
 import SignUpWhere from "./pages/SignUpWhere"
 
+
+
 function App() {
   return (
     <>
       <Router>
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/sign-up" exact component={SignUp} />
-          <Route path="/sign-up-where" exact component={SignUpWhere} />
-          <Route path="/sign-in" exact component={SignIn} />
+          <Route exact path="/" exact component={Home} />
+          <Route exact path="/sign-up" exact component={SignUp} />
+          <Route exact path="/sign-up-where" exact component={SignUpWhere} />
+          <Route exact path="/sign-in" exact component={SignIn} />
 
-          <Route path="/profile" exact component={Profile} />
-          <Route path="/match" exact component={Match} />
-          <Route path="/favourite" exact component={Favourite} />
-          <Route path="/message" exact component={Message} />
+          <Route exact path="/profile" exact component={Profile} />
+          <Route exact path="/match" exact component={Match} />
+          <Route exact path="/favourite" exact component={Favourite} />
+          <Route exact path="/message" exact component={Message} />
 
         </Switch>
       </Router>
