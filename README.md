@@ -1,11 +1,11 @@
-FindRoomie
+## FindRoomie:
 The Web app where you can find the perfect roommate, connect to then and message then privately.
-1) clone the git respositary
-	clone 
-2) install the npm module 
+1) clone the git respositary. \
+	git clone git@github.com:mohit-40/FindRoomies.git
+2) install the npm module. \
 	npm i 
-3) run in development mode 
-	npm
+3) run in development mode. \
+	npm start 
 
 
 ## Available Scripts
