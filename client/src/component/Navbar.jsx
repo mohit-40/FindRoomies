@@ -29,7 +29,7 @@ function Navbar(props) {
 						return( <NavItem index={index} title={item.title}  class={item.cName} url={item.url} closeMobileMenu={closeMobileMenu} /> )
 					})}
 				</ul>
-				{props.login && button && <Button  buttonStyle='btn--outline' to="/sign-up">SIGN UP</Button>}
+				{props.login && button && <Button  buttonStyle='btn--outline' to="/sign-up">SIGN UP</Button>}	
 				{props.login && button && <Button buttonStyle='btn--outline' to="/sign-in">SIGN IN</Button>}
 			</div>
 		</nav>
