@@ -1,0 +1,33 @@
+.card-section{
+	min-height: 90vh;
+	/* background-color: yellow; */
+}
+.all-cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.card-section-heading{
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+	padding:30px;
+}
+.card{
+	text-align: center;
+	color: white;
+	margin: 20px 10px;
+}
+.card-container{
+	max-width: 400px;
+	margin: auto;
+	padding: 5px;
+}
+.card-img{
+	height: 200px;
+}
+.card-heading{
+	font-size: 1.5rem;
+	margin: 10px;
+}

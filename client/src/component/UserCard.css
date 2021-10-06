@@ -1,0 +1,39 @@
+.usercard{
+	background: cornsilk;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	width: 240px;
+}
+.usercard-img{
+	display: block;
+	margin: 10px auto;
+	height: 150px;
+	border-radius: 20px;
+}
+.usercard-info{
+	margin: 10px;
+	font-size: 1.1rem;
+}
+.usercard-info1{
+	margin: 10px;
+}
+.usercard-btn-container{
+	width: fit-content;
+	margin: auto;
+}
+.usercard-btn{
+	margin: 5px;
+	padding: 10px ;
+	border-radius: 10px;
+	transition: box-shadow .3s;
+	border: 1px solid #ccc;
+}
+.usercard-btn:hover{
+	background: black;
+	color: blanchedalmond;
+}
+.usercard:hover{
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+	transform: scale(1.05);
+}

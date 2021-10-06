@@ -1,0 +1,38 @@
+:root{
+	--footerheight:15vh;
+}
+body{
+	position: relative;
+	min-height: 100vh;
+}
+footer{
+	font-size: 1.5rem;
+	height: var(--footer-height);
+	color: cornsilk;
+	background: black;
+	position: absolute;
+	bottom:var(--footerHeight);
+	width: 100%;
+
+}
+.footer-container{
+	max-width: 1400px;
+	margin: auto;
+}
+.footer-line1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer-icon{
+	margin: 10px;
+}
+.fa-instagram:hover{
+	color: hotpink;
+}
+.fa-facebook-square:hover{
+	color: rgb(73, 73, 252);
+}
+.fa-twitter:hover{
+	color: rgb(118, 118, 201);
+}
